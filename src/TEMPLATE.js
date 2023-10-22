@@ -20,7 +20,7 @@ const data = {
             { category: "Documentation:", skills: "Google Spreadsheets" },
         ],
         socialMedia: [
-            { icon: GitHubIcon },
+            { icon: <GitHubIcon onclick = {event=>window.location.href='https://github.com/'}/> },
         ],
         education: [
             {
