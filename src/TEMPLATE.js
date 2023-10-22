@@ -14,9 +14,7 @@ import PinterestIcon from '@mui/icons-material/Twitter';
 // Data object that contains all of the data for the template.
 const data = {
     profile: {
-        name: "Sara Friends",
-        address: "C Java Place, Lowell, MA 07646",
-        avatar: "https://mui.com/static/images/avatar/1.jpg",
+        name: "Noah Shayne",
         contacts: [
             { icon: PhoneIcon, label: "Phone", value: "(978) 123-4567" },
             { icon: EmailIcon, label: "Email", value: "sara_friends@student.uml.edu" },
