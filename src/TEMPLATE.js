@@ -18,6 +18,7 @@ const data = {
             { category: "Programming Languages:", skills: "Python" },
             { category: "Scripting Languages:", skills: "HTML" },
             { category: "Documentation:", skills: "Google Spreadsheets" },
+            { category: "Learning:", skills: "SQL, React.js" }
         ],
         socialMedia: [
             { icon: (props) => <GitHubIcon onClick = {event=>window.location.href='https://github.com/noahshayne'}/> },
