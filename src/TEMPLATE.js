@@ -20,7 +20,12 @@ const data = {
             { category: "Documentation:", skills: "Google Spreadsheets" },
         ],
         socialMedia: [
-            { icon: (props) => <GitHubIcon onClick = {event=>window.location.href='https://github.com/noahshayne'}/> },
+            { icon: FacebookIcon },
+            { icon: InstagramIcon },
+            { icon: LinkedInIcon },
+            { icon: TwitterIcon },
+            { icon: SnapchatIcon },
+            { icon: PinterestIcon },
         ],
         education: [
             {
