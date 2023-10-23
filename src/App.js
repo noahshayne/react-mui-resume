@@ -83,8 +83,8 @@ export default function App({ data }) {
                 <Container component="main" maxWidth="lg">
                     <Tabs value={activeTab} onChange={handleTabChange} centered sx={{ mb: 2 }}>
                         <Tab label="Resume" />
-                        <Tab label="Updates" />
-                        {/* <Tab label="Social Media" /> */}
+                    
+                        
                     </Tabs>
                     <AnimatePresence mode='wait'>
                         {activeTab === 0 && (
@@ -109,17 +109,8 @@ export default function App({ data }) {
                                 <SocialFeed posts={data.posts}/>
                             </motion.div>
                         )}
-                        {activeTab === 2 && (
-                            <motion.div
-                                key="socialMedia"
-                                initial="hidden"
-                                animate="visible"
-                                exit="hidden"
-                                variants={fadeInOutVariants}
-                            >
-                                Social Media content here.
-                            </motion.div>
-                        )}
+                        
+                
                     </AnimatePresence>
 
                 </Container>
