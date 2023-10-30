@@ -12,7 +12,7 @@ const data = {
     profile: {
         name: "Noah Shayne",
         contacts: [
-            { icon: EmailIcon, label: "Email", value: <button style = {{border: "none"}} onClick={() => window.location = 'mailto:noah.shayne@gmail.com'}>noah.shayne@gmail.com</button> }
+            { icon: EmailIcon, label: "Email", value: <button style = {{border: "none", backgroundColor: "none" }} onClick={() => window.location = 'mailto:noah.shayne@gmail.com'}>noah.shayne@gmail.com</button> }
         ],
         skills: [
             { category: "Programming Languages:", skills: "Python" },
