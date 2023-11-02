@@ -67,13 +67,13 @@ export default function ResumePortfolio({ profile }) {
                         </List>
                     </ResumeCard>
 
-                    {/* Social Media Links */}
+                    {/* Links */}
                     <ResumeCard>
                         <Typography variant="h6" component="div" sx={{ textAlign: 'center' }}>
-                            Social Media
+                            Links
                         </Typography>
                         <Box sx={{ mt: 2, textAlign: 'center' }}>
-                            {profile.socialMedia.map((media, index) => (
+                            {profile.websites.map((media, index) => (
                                 <IconButton color="primary" key={index}>
                                     <media.icon />
                                 </IconButton>
