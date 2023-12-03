@@ -12,7 +12,7 @@ const data = {
     profile: {
         name: "Noah Shayne",
         contacts: [
-            { icon: EmailIcon, label: "Email", value: <button onClick={() => window.location = 'mailto:noah.shayne@gmail.com'}>Noah Shayne</button> }
+            { icon: EmailIcon, label: "Email", value: <button onClick={() => window.location = 'mailto:noah.shayne@gmail.com'}>noah.shayne@gmail.com</button> }
         ],
         skills: [
             { category: "Programming Languages:", skills: "Python" },
@@ -26,9 +26,9 @@ const data = {
         education: [
             {
                 degree: "B.S. in Computer Science",
-                date: "Anticipated May 2027",
+                date: "Anticipated Dec 2026",
                 school: "University of Massachusetts Lowell - Lowell, MA",
-                gpa: "GPA: NA"
+                gpa: "GPA: ~ 3.6"
             },
          
         ],
@@ -42,7 +42,7 @@ const data = {
                 title: "Amherst Senior Center - Volunteer",
                 date: "Oct 2022 to Jan 2023",
                 description: "Worked alongside the Amherst Senior Center's volunteer coordinator to create technical guides geared towards staff and members of the aforementioned senior center.",
-            },
+            }
           
            
         ],
