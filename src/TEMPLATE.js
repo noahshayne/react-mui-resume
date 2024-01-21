@@ -15,9 +15,9 @@ const data = {
             { icon: EmailIcon, label: "Email", value: <button onClick={() => window.location = 'mailto:noah.shayne@gmail.com'}>noah.shayne@gmail.com</button> }
         ],
         skills: [
-            { category: "Programming Languages:", skills: "Python" },
+            { category: "Programming Languages:", skills: "Python, C" },
             { category: "Scripting Languages:", skills: "HTML" },
-            { category: "Documentation:", skills: "Google Spreadsheets" },
+            { category: "Documentation:", skills: "Excel, PowerPoint" },
             { category: "Learning:", skills: "SQL, React.js" }
         ],
         websites: [
@@ -28,7 +28,7 @@ const data = {
                 degree: "B.S. in Computer Science",
                 date: "Anticipated Dec 2026",
                 school: "University of Massachusetts Lowell - Lowell, MA",
-                gpa: "GPA: ~ 3.6"
+                gpa: "GPA: 3.769"
             },
          
         ],
